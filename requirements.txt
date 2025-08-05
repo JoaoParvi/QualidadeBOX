@@ -1,0 +1,6 @@
+SQLAlchemy
+Pandas
+datetime
+selenium
+pyodbc
+openpyxl
