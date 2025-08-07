@@ -9,7 +9,7 @@ pipeline {
             }
         }
 
-        stage('Instalar dependências') {
+        stage('Instalar dependências do codigo') {
             steps {
                 bat '"C:\\Users\\adm.luiz.vinicius\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pip.exe" install -r requirements.txt'
             }
